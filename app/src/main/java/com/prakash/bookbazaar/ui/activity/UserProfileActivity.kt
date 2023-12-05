@@ -265,7 +265,7 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener  {
 
         val userHashMap = HashMap<String, Any>()
 
-        // TODO Step 5: Update the code if user is about to Edit Profile details instead of Complete Profile.
+        // Update the code if user is about to Edit Profile details instead of Complete Profile.
         // Get the FirstName from editText and trim the space
         val firstName = binding.etFirstName.text.toString().trim { it <= ' ' }
         if (firstName != mUserDetails.firstName) {

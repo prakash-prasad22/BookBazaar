@@ -160,7 +160,7 @@ class FirestoreClass {
             .update(userHashMap)
             .addOnSuccessListener {
 
-                // TODO Step 9: Notify the success result to the base activity.
+                //  Notify the success result to the base activity.
                 // START
                 // Notify the success result.
                 when (activity) {
@@ -350,7 +350,7 @@ class FirestoreClass {
             }
     }
 
-    // TODO Step 1: Create a function to delete the product from the cloud firestore.
+    //  Create a function to delete the product from the cloud firestore.
     /**
      * A function to delete the product from the cloud firestore.
      */
@@ -622,7 +622,7 @@ class FirestoreClass {
             .update(itemHashMap) // A HashMap of fields which are to be updated.
             .addOnSuccessListener {
 
-                // TODO Step 4: Notify the success result of the updated cart items list to the base class.
+                // Notify the success result of the updated cart items list to the base class.
                 // START
                 // Notify the success result of the updated cart items list to the base class.
                 when (context) {
