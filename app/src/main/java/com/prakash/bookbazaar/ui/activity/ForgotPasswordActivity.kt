@@ -17,7 +17,7 @@ class ForgotPasswordActivity : BaseActivity() {
 
         setupActionBar()
 
-        //TODO Step 2: Assign the click even to the submit button.
+        // Assign the click even to the submit button.
         // In this screen there is only a one input field so we will not create the separate function what we have done in the Register and Login Screens.
         // I will show you how to perform all the operations in the on click function it self.
 

@@ -112,7 +112,7 @@ class DashboardFragment : BaseFragment() {
             val adapter = DashboardItemsListAdapter(requireActivity(), dashboardItemsList)
             binding.rvDashboardItems.adapter = adapter
 
-            //TODO Step 6: Define the onclick listener here that is defined in the adapter class and handle the click on an item in the base class.
+            //Define the onclick listener here that is defined in the adapter class and handle the click on an item in the base class.
             // Earlier we have done is a different way of creating the function and calling it from the adapter class based on the instance of the class.
 
             // START
